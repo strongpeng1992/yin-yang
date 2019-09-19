@@ -1,0 +1,44 @@
+#yin-yang{
+  width: 200px;
+  height: 200px;
+  border:1px solid;
+  border-radius: 50%;
+  background: -webkit-linear-gradient(top, #ffffff 50%,#000000 50%,#020000 100%);
+  position: relative;
+}
+#yin-yang .circle1{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #000000;
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
+#yin-yang .circle2{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #ffffff;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+#yin-yang .circle1 .smallcircle1{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+#yin-yang .circle2 .smallcircle2{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #000000;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
